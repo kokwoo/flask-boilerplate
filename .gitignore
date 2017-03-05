@@ -1,0 +1,4 @@
+evn/
+*.pyc
+.app.py.swp
+.DS_STORE
