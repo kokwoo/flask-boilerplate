@@ -9,7 +9,7 @@ def hello_world():
 
 try:
 	print "starting server in port 5000"
-	http_server = WSGIServer(("127.0.0.1", 5000), app)
+	http_server = WSGIServer(("", 5000), app)
 	http_server.serve_forever()
 except KeyboardInterrupt:
 	print "exiting gracefully"
